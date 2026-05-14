@@ -1,0 +1,11 @@
+order_id,customer_name,product,quantity,price,sale_date
+1,Alice,Laptop,1,1000,2024-01-01
+2,Bob,Mouse,2,25,2024-01-02
+3,Charlie,Keyboard,1,75,2024-01-02
+4,Diana,Monitor,1,300,2024-01-03
+5,Eve,Laptop,1,1000,2024-01-03
+6,Frank,Mouse,3,25,2024-01-04
+7,Grace,Keyboard,2,75,2024-01-04
+8,Henry,Monitor,1,300,2024-01-05
+9,Ivy,Laptop,1,1000,2024-01-05
+10,Jack,Mouse,2,25,2024-01-06

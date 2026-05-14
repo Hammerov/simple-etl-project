@@ -1,7 +1,6 @@
-# create_data.py
 import pandas as pd
 
-# Create sample sales data (10 rows only)
+# Create sample sales data (10 rows)
 data = {
     'order_id': [1, 2, 3, 4, 5, 6, 7, 8, 9, 10],
     'customer_name': ['Alice', 'Bob', 'Charlie', 'Diana', 'Eve', 
@@ -16,6 +15,11 @@ data = {
 }
 
 df = pd.DataFrame(data)
-df.to_csv('data/sales_data.csv', index=False)
-print("✅ sales_data.csv created in 'data' folder with 10 rows!")
-print(df)
+df.to_csv('sales_data.csv', index=False)
+print("=" * 50)
+print("✅ DATA CREATED SUCCESSFULLY!")
+print("=" * 50)
+print(f"📊 Created {len(df)} rows in sales_data.csv")
+print("\n📋 First 5 rows:")
+print(df.head())
+print("\n💾 File saved: sales_data.csv")
